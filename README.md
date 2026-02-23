@@ -26,4 +26,5 @@ pip install -r requirements.txt
 3. Run the script
 python QReator.py
 
-by Justin Oropeza
+4.Run the Qreator with GUI
+python Qreatorui.py

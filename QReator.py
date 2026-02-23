@@ -1,5 +1,6 @@
 import qrcode
-
+import customtkinter as ctk
+#CLI Qreator.
 def qr_generator(link,save):
     link = qrcode.make(link)
     type(link)
@@ -14,14 +15,17 @@ print("""
 ░░ ▒▒░ ▒ ░ ▒▓ ░▒▓░░░ ▒░ ░▒▒   ▓▒█░ ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░
  ░ ▒░  ░   ░▒ ░ ▒░ ░ ░  ░ ▒   ▒▒ ░   ░      ░ ▒ ▒░   ░▒ ░ ▒░
    ░   ░   ░░   ░    ░    ░   ▒    ░      ░ ░ ░ ▒    ░░   ░ 
-    ░       ░        ░  ░     ░  ░            ░ ░     ░     
+    ░       ░        ░  ░     ░  ░            ░ ░     ░      by arepa
                                                             
 
 """)
+
 while True:
-    print("---- MENU ----")
-    print("1.Create QR")
-    print("2.Exit")
+    print(""" 
+1.Create Qr
+2.Exit 
+
+""")
 
     op = input("Select Option: ")
 
