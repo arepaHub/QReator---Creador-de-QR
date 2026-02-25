@@ -1,4 +1,2 @@
 qrcode
 qrcode[pil]
-customtkinter
-pyglet

@@ -13,11 +13,11 @@
                                                             
 ```
 
-**QReator** is a Python program for generating QR codes from user-provided links, compatible with **Linux** and **Windows**.
+**QReator** is a Python program for generating QR codes from user-provided links, compatible with **Linux**, **Termux** and **Windows**.
 
 The QR code will be saved after generation within the cloned **QReator** folder.
 
-## Installation
+## Installation 
 
 1. Clone the repository
 ```
@@ -34,7 +34,6 @@ The QR code will be saved after generation within the cloned **QReator** folder.
    python QReator.py
 ```
 
-4. Run with GUI
-```
-   python Qreatorui.py
-```
+## How to use
+
+Select "1" to generate a QR code, then paste the link you want the QR to point to, give the image.png a name, the QR image will be saved where you cloned the repository.

@@ -1,9 +1,8 @@
 import qrcode
-import customtkinter as ctk
+
 #CLI Qreator.
 def qr_generator(link,save):
     link = qrcode.make(link)
-    type(link)
     link.save(save)
 
 print("""                  
@@ -27,12 +26,12 @@ while True:
 
 """)
 
-    op = input("Select Option: ")
+    op = input("Select Option: ").strip()
 
 
     if op == "1":
-        enlace = input("Paste your link: ")
-        guardar = input("File name: ")
+        enlace = input("Paste your link: ").strip()
+        guardar = input("File name: ").strip()
         archivo = guardar + ".png"
         qr_generator(enlace, archivo)
         print("Saved as",archivo)
